@@ -1,0 +1,9 @@
+{
+"python.linting.enabled": true,
+"python.linting.pylintEnabled": true,
+"files.exclude":{ //arquivos que eu quero que ele não apareça ali do lado no diretorio
+    "**/*.pyc": {"when": "$(basename).py"},
+    "**/__pycache__": true,
+    "**/*.pytest_cahe": true,
+    }
+}
